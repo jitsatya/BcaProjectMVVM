@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "223014166145",
+    "firebase_url": "https://nutrition-search-mvvm.firebaseio.com",
+    "project_id": "nutrition-search-mvvm",
+    "storage_bucket": "nutrition-search-mvvm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223014166145:android:066d1aed986915c5c2b780",
+        "android_client_info": {
+          "package_name": "com.example.nutritionsearchmvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223014166145-d12lam7v6fk8ldvqcntlfvo2oj1smvni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdE3BgIEXpP-w9LZrAUvvJAXHHs97pq5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223014166145-d12lam7v6fk8ldvqcntlfvo2oj1smvni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

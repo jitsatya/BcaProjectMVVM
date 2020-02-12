@@ -3,16 +3,23 @@
     xmlns:dist="http://schemas.android.com/apk/distribution"
     package="com.example.nutritionsearchmvvm">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
     <dist:module dist:instant="true" />
 
     <application
+        android:name=".MVVMApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.DetailsPage.DetailsPage"></activity>
+        <activity android:name=".ui.SearchResults.SearchResults" />
+        <activity android:name=".ui.auth.SignUpActivity" />
+        <activity android:name=".ui.home.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

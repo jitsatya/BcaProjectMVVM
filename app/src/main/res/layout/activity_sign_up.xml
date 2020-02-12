@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.SignUpActivity">
+
+    <TextView
+        android:id="@+id/textViewSignupText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Please provide following details to continue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_signupEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        app:layout_constraintEnd_toEndOf="@+id/textViewSignupText"
+        app:layout_constraintStart_toStartOf="@+id/textViewSignupText"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSignupText" />
+
+    <EditText
+        android:id="@+id/editText_SignupPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        app:layout_constraintEnd_toEndOf="@+id/editText_signupEmail"
+        app:layout_constraintStart_toStartOf="@+id/editText_signupEmail"
+        app:layout_constraintTop_toBottomOf="@+id/editText_signupEmail" />
+
+    <Button
+        android:id="@+id/button_Signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="SIGNUP"
+        app:layout_constraintEnd_toEndOf="@+id/editText_SignupPassword"
+        app:layout_constraintStart_toStartOf="@+id/editText_SignupPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editText_SignupPassword" />
+
+    <TextView
+        android:id="@+id/textView_toLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:text="Login"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="@+id/button_Signup"
+        app:layout_constraintStart_toStartOf="@+id/button_Signup"
+        app:layout_constraintTop_toBottomOf="@+id/button_Signup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
